@@ -1,3 +1,0 @@
-/home/roc/code/vslam/slambook/ch3/useSophus/build/CMakeFiles/edit_cache.dir
-/home/roc/code/vslam/slambook/ch3/useSophus/build/CMakeFiles/rebuild_cache.dir
-/home/roc/code/vslam/slambook/ch3/useSophus/build/CMakeFiles/useSophus.dir

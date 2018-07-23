@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 2.8)
-INCLUDE_DIRECTORIES("/usr/include/eigen3")
-find_package(Sophus REQUIRED)
-INCLUDE_DIRECTORIES(${Sophus_INCLUDE_DIRS})
-project(useSophus)
-add_executable(${PROJECT_NAME} "main.cpp")
-target_link_libraries(useSophus ${Sophus_LIBRARIES})

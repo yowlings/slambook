@@ -1,0 +1,7 @@
+# ninja log v5
+0	116	0	CMakeFiles/ch2.dir/main.cpp.o	c367fa3ba620be56
+116	191	0	ch2	41a4c77ba7081205
+0	158	0	CMakeFiles/hello_shared.dir/uselib.cpp.o	aeebdfd740033d7e
+158	234	0	libhello_shared.so	6420789c7c222f9f
+234	253	0	CMakeFiles/libHello.dir/libhello.cpp.o	3f6914cae2dcd4ad
+254	308	0	libHello	b01e045db3163aab

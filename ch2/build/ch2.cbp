@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ch2" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v all" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v edit_cache" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ch2">
+         <Option output="/home/roc/code/vslam/slambook/ch2/build/ch2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v ch2" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ch2/fast">
+         <Option output="/home/roc/code/vslam/slambook/ch2/build/ch2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v ch2/fast" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libHello">
+         <Option output="/home/roc/code/vslam/slambook/ch2/build/libHello" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v libHello" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libHello/fast">
+         <Option output="/home/roc/code/vslam/slambook/ch2/build/libHello" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v libHello/fast" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v rebuild_cache" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hello_shared">
+         <Option output="/home/roc/code/vslam/slambook/ch2/build/libhello_shared.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v hello_shared" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="hello_shared/fast">
+         <Option output="/home/roc/code/vslam/slambook/ch2/build/libhello_shared.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/roc/code/vslam/slambook/ch2/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/ninja -v hello_shared/fast" />
+            <CompileFile command="/usr/bin/ninja -v &quot;$file&quot;" />
+            <Clean command="/usr/bin/ninja -v clean" />
+            <DistClean command="/usr/bin/ninja -v clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/roc/code/vslam/slambook/ch2/libhello.cpp">
+         <Option target="libHello"/>
+      </Unit>
+      <Unit filename="/home/roc/code/vslam/slambook/ch2/main.cpp">
+         <Option target="ch2"/>
+      </Unit>
+      <Unit filename="/home/roc/code/vslam/slambook/ch2/uselib.cpp">
+         <Option target="hello_shared"/>
+      </Unit>
+      <Unit filename="/home/roc/code/vslam/slambook/ch2/uselib.h">
+         <Option target="hello_shared"/>
+      </Unit>
+      <Unit filename="/home/roc/code/vslam/slambook/ch2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
